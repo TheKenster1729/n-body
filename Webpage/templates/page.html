@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel = "stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <div class="container">
+    <form class="range">
+      <div class="form-group range__slider">
+        <input type="range" step="1">
+      </div><!--/form-group-->
+      <div class="form-group range__value">
+        <label>Number of Masses</label>
+        <span>
+          <script src = "static/slider.js"></script>
+        </span>            
+      </div><!--/form-group-->
+    </form>
+  </div><!--/container-->
+</head>
+</html>
